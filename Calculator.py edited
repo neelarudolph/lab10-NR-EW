@@ -1,0 +1,24 @@
+hi erik i didnt want to edit anything on the main project bc it says u need to make a clone of it 
+before i add my things so here it is on a different file for whenever u wish to procceed #havefun
+
+import math
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if a == 0:
+        raise ZeroDivisionError("Division by zero is not allowed.")
+    return b / a    # raise ZeroDivisionError if a == 0
+
+def logarithm(a, b):
+    return math.log(b,a)
+
+def exponent(a, b):
+    return a ** b
