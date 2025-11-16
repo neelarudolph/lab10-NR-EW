@@ -1,3 +1,7 @@
+# https://github.com/neelarudolph/lab10-NR-EW/blob/main/calculator.py
+# Partner 1: Neela Rudolph
+# Partner 2: Erik Woods
+
 import math
 
 def square_root(a):
