@@ -4,6 +4,22 @@
 
 import math
 
+def mul(a, b):
+    return multiply(a, b)
+
+def div(a, b):
+    return divide(a, b)
+
+def exp(a, b):
+    return exponent(a, b)
+
+# optional compatibility aliases
+def sub(a, b):
+    return subtract(a, b)
+
+def log(a, b):
+    return logarithm(a, b)
+
 def square_root(a):
     if a < 0:
         raise ValueError("Cannot take square root of a negative number.")
