@@ -4,12 +4,6 @@
 
 import math
 
-# https://github.com/<your-link-here>
-# Partner 1: <Name>
-# Partner 2: <Name>
-
-import math
-
 def square_root(a):
     if a < 0:
         raise ValueError("Cannot take square root of a negative number.")
