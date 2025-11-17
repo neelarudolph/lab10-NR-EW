@@ -17,19 +17,19 @@ def hypotenuse(a, b):
 def add(a, b):
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
-def mul(a, b):
+def multiply(a, b):
     return a * b
 
-def div(a, b):
+def divide(a, b):
     if a == 0:
         raise ZeroDivisionError("Division by zero is not allowed.")
     return b / a    # raise ZeroDivisionError if a == 0
 
-def log(a, b):
+def logarithm(a, b):
     return math.log(b,a)
 
-def exp(a, b):
+def exponent(a, b):
     return a ** b
